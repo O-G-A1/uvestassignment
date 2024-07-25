@@ -1,0 +1,236 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+header{
+    background-color: #00151D;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px 10px;
+    
+}
+header > h5{
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.fa-clock{
+    color:#001C47;
+}
+header p{
+    margin-left: auto;
+    color: white;
+    font-size: 1.2rem;
+}
+p > span{
+    color: #788094;
+}
+.fa-brands{
+    color: white;
+    vertical-align: middle;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 15px;
+}
+.navbar a:nth-of-type(1){
+    margin-left: auto;
+}
+.navbar a:nth-of-type(6){
+    margin-left: 50px;
+    background-color: #001C47;
+    color: white;
+    padding: 20px 40px;
+    font-weight: 600;
+}
+.navbar > img{
+    max-width: 200px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #00151D;
+    font-weight: 500;
+}
+.navbar > a:nth-of-type(2)::after{
+    content: "+";
+}
+.landing{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-image: url(../images/uvest_training2.jpg);
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.landing h1{
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+.landing h3{
+    margin-top: 15vh;
+    color: #00151D;
+}
+.landing p{
+    font-size: 1.3rem;
+    color: white;
+}
+.landing a{
+    background-color: #001C47;
+    border-radius: 30px;
+    padding: 17px 16px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.threebelowlanding{
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+.threebelowlanding .div1{
+    flex: 1 1 20%;
+    background-color: #00A1DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.threebelowlanding .div1 > p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    line-height: 1.4;
+}
+.threebelowlanding .div2{
+    flex: 1 1 20%;
+    background-color: #FF7F2A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.threebelowlanding .div2 > p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    line-height: 1.4;
+}
+.threebelowlanding .div3{
+    background-color: #001C47;
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.threebelowlanding .div3 > p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    line-height: 1.4;
+    font-weight: 100;
+    padding: 0px 50px;
+
+}
+
+.threebelowlanding h2{
+    color: white;
+    font-size: 1.3rem;
+}
+.sublanding{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+}
+.sublanding img{
+    max-width: 35%;
+    height: auto;
+    margin-left: 25px;
+}
+.besideimg{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 55%;
+}
+.besideimg h4{
+    font-size: 1.2rem;
+}
+.besideimg h1{
+    font-size: 3rem;
+    max-width: 80%;
+    color: #00151D;
+}
+.besideimg > p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    border-left: 2px solid black;
+    padding: 0px 30px;
+    color: #7887BC;
+}
+.besideimg ul{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #7887BC;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    
+}
+.besideimg > a{
+    text-decoration: none;
+    background-color: #001C47;
+    border-radius: 30px;
+    padding: 20px 22px;
+    color: white;
+    font-size: 14px;
+}
+.p2{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    gap: 10px;
+    margin-left: -30px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.p2 p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 70%;
+}
+.p2 img{
+    align-self: flex-start;
+}
